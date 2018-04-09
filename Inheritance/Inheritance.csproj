@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="Being.cs" />
     <Compile Include="Human.cs" />
+    <Compile Include="InorganicBeing.cs" />
     <Compile Include="OrganicBeing.cs" />
     <Compile Include="Panda.cs" />
     <Compile Include="Program.cs" />

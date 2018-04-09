@@ -26,6 +26,10 @@ namespace Inheritance
             Bubba.Wakeup();
             Bubba.FallAsleep();
             Console.ReadLine();
+
+            Darrell.StartUp();
+            Darrell.ShutDown();
+            Console.ReadLine();
         }
     }
 }

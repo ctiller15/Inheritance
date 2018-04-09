@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Inheritance
 {
-    class Robot : Being
+    class Robot : InorganicBeing
     {
         public string VersionNumber { get; set; }
     }
