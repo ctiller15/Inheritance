@@ -10,6 +10,9 @@ namespace Inheritance
     {
         static void Main(string[] args)
         {
+            var Existence = new Being();
+            Console.WriteLine(Existence.Birthday);
+            Console.WriteLine(Existence.Name);
         }
     }
 }
