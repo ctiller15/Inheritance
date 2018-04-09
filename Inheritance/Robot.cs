@@ -8,5 +8,6 @@ namespace Inheritance
 {
     class Robot : Being
     {
+        public string VersionNumber { get; set; }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Inheritance
 {
-    class Panda : Being
+    class Panda : OrganicBeing
     {
     }
 }

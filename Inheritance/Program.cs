@@ -13,6 +13,19 @@ namespace Inheritance
             var Existence = new Being();
             Console.WriteLine(Existence.Birthday);
             Console.WriteLine(Existence.Name);
+            Console.ReadLine();
+
+            var Chris = new Human();
+            var Bubba = new Panda();
+            var Darrell = new Robot();
+
+            Chris.Wakeup();
+            Chris.FallAsleep();
+            Console.ReadLine();
+
+            Bubba.Wakeup();
+            Bubba.FallAsleep();
+            Console.ReadLine();
         }
     }
 }

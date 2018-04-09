@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Inheritance
 {
-    class Human : Being
+    class Human : OrganicBeing
     {
+
     }
 }
