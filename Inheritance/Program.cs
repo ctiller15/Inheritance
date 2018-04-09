@@ -30,6 +30,10 @@ namespace Inheritance
             Darrell.StartUp();
             Darrell.ShutDown();
             Console.ReadLine();
+
+            Chris.Eat("BBQ");
+            Bubba.Eat("The flesh of humans");
+            Console.ReadLine();
         }
     }
 }

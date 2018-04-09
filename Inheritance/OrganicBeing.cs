@@ -19,5 +19,10 @@ namespace Inheritance
             this.IsAsleep = true;
             Console.WriteLine(this.IsAsleep);
         }
+
+        public void Eat(string food)
+        {
+            Console.WriteLine($"Eating {food}");
+        }
     }
 }
