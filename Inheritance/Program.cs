@@ -38,6 +38,9 @@ namespace Inheritance
             //Bubba.Eat("The flesh of humans");
             Chris.Adopt(Bubba);
             Chris.Adopt(Darrell);
+            Console.WriteLine(Chris.ToString());
+            Console.WriteLine(Bubba.ToString());
+            Console.WriteLine(Darrell.ToString());
             Console.ReadLine();
         }
     }
