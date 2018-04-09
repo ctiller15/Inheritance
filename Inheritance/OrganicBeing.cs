@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Inheritance
 {
-    class OrganicBeing : Being
+    abstract class OrganicBeing : Being
     {
         public void Wakeup()
         {

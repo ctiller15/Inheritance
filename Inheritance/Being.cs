@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Inheritance
 {
-    class Being
+    abstract class Being
     {
         public string greeting { get; set; } = "Hello!";
         public string Name { get; set; } = "name";

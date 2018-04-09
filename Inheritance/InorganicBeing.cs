@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Inheritance
 {
-    class InorganicBeing : Being
+    abstract class InorganicBeing : Being
     {
         public void StartUp()
         {
