@@ -16,26 +16,28 @@ namespace Inheritance
             Console.ReadLine();
 
             var Chris = new Human();
-            var Bubba = new Panda();
-            var Darrell = new Robot();
+            var Bubba = new Panda("Bubba");
+            var Darrell = new Robot("Darrell");
 
-            Chris.SayHello();
-            Chris.Wakeup();
-            Chris.FallAsleep();
-            Console.ReadLine();
+            //Chris.SayHello();
+            //Chris.Wakeup();
+            //Chris.FallAsleep();
+            //Console.ReadLine();
 
-            Bubba.SayHello();
-            Bubba.Wakeup();
-            Bubba.FallAsleep();
-            Console.ReadLine();
+            //Bubba.SayHello();
+            //Bubba.Wakeup();
+            //Bubba.FallAsleep();
+            //Console.ReadLine();
 
-            Darrell.SayHello();
-            Darrell.StartUp();
-            Darrell.ShutDown();
-            Console.ReadLine();
+            //Darrell.SayHello();
+            //Darrell.StartUp();
+            //Darrell.ShutDown();
+            //Console.ReadLine();
 
-            Chris.Eat("BBQ");
-            Bubba.Eat("The flesh of humans");
+            //Chris.Eat("BBQ");
+            //Bubba.Eat("The flesh of humans");
+            Chris.Adopt(Bubba);
+            Chris.Adopt(Darrell);
             Console.ReadLine();
         }
     }

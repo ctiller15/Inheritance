@@ -6,11 +6,20 @@ using System.Threading.Tasks;
 
 namespace Inheritance
 {
-    class Robot : InorganicBeing
+    class Robot : InorganicBeing, IPet
     {
+        //public string OwnersName;
+
         public string VersionNumber { get; set; }
-        public Robot()
+
+        public void NameSelf()
         {
+            Console.WriteLine($"Hi! My name is {Name}");
+        }
+
+        public Robot(string name)
+        {
+            Name = name;
             greeting = "BZZZZT TERMINATE ALL HUMANS";
         }
     }

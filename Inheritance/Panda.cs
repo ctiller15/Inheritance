@@ -6,10 +6,21 @@ using System.Threading.Tasks;
 
 namespace Inheritance
 {
-    class Panda : OrganicBeing
+    class Panda : OrganicBeing, IPet
     {
-        public Panda()
+        //string IPet.OwnersName
+        //{
+        //    get { return ""; }
+        //}
+
+        public void NameSelf()
         {
+            Console.WriteLine($"Hi! My name is {Name}");
+        }
+
+        public Panda(string name)
+        {
+            Name = name;
             greeting = "GROOOWH";
         }
     }
