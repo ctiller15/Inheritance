@@ -9,5 +9,9 @@ namespace Inheritance
     class Robot : InorganicBeing
     {
         public string VersionNumber { get; set; }
+        public Robot()
+        {
+            greeting = "BZZZZT TERMINATE ALL HUMANS";
+        }
     }
 }

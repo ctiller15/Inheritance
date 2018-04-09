@@ -8,5 +8,9 @@ namespace Inheritance
 {
     class Panda : OrganicBeing
     {
+        public Panda()
+        {
+            greeting = "GROOOWH";
+        }
     }
 }

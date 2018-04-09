@@ -8,6 +8,14 @@ namespace Inheritance
 {
     class Human : OrganicBeing
     {
+        //public void greet()
+        //{
+        //    Console.WriteLine(greeting);
+        //}
 
+        public Human()
+        {
+            greeting = "Hello there friend!!!";
+        }
     }
 }

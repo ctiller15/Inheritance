@@ -23,6 +23,7 @@ namespace Inheritance
         public void Eat(string food)
         {
             Console.WriteLine($"Eating {food}");
+            //Console.WriteLine(greeting);
         }
     }
 }

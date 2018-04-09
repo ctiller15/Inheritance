@@ -19,14 +19,17 @@ namespace Inheritance
             var Bubba = new Panda();
             var Darrell = new Robot();
 
+            Chris.SayHello();
             Chris.Wakeup();
             Chris.FallAsleep();
             Console.ReadLine();
 
+            Bubba.SayHello();
             Bubba.Wakeup();
             Bubba.FallAsleep();
             Console.ReadLine();
 
+            Darrell.SayHello();
             Darrell.StartUp();
             Darrell.ShutDown();
             Console.ReadLine();
