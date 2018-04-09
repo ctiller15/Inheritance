@@ -8,10 +8,7 @@ namespace Inheritance
 {
     class Panda : OrganicBeing, IPet
     {
-        //string IPet.OwnersName
-        //{
-        //    get { return ""; }
-        //}
+        public string OwnersName { get; set; }
 
         public void NameSelf()
         {

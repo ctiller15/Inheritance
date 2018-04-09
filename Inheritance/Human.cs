@@ -12,16 +12,18 @@ namespace Inheritance
 
         public void Adopt(IPet pet)
         {
-            //pet.OwnersName = this.Name;
+            pet.OwnersName = this.Name;
             Pets.Add(pet);
             foreach(var Pet in Pets)
             {
                 Pet.NameSelf();
+                Console.WriteLine($"{Pet.Name} is owned by {Pet.OwnersName}");
             }
         }
 
-        public Human()
+        public Human(string name)
         {
+            Name = name;
             greeting = "Hello there friend!!!";
         }
     }

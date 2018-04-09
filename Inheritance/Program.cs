@@ -15,7 +15,7 @@ namespace Inheritance
             Console.WriteLine(Existence.Name);
             Console.ReadLine();
 
-            var Chris = new Human();
+            var Chris = new Human("Chris");
             var Bubba = new Panda("Bubba");
             var Darrell = new Robot("Darrell");
 

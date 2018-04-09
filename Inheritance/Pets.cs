@@ -8,7 +8,8 @@ namespace Inheritance
 {
     interface IPet
     {
-        //string OwnersName { get; set; }
+        string OwnersName { get; set; }
+        string Name { get; set; }
 
         void NameSelf();
     }

@@ -8,7 +8,7 @@ namespace Inheritance
 {
     class Robot : InorganicBeing, IPet
     {
-        //public string OwnersName;
+        public string OwnersName { get; set; }
 
         public string VersionNumber { get; set; }
 
