@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adoption.cs" />
     <Compile Include="AutomaticVehicle.cs" />
     <Compile Include="Being.cs" />
     <Compile Include="Bicycle.cs" />

@@ -21,6 +21,14 @@ namespace Inheritance
             }
         }
 
+        public void ShowPets()
+        {
+            foreach(var pet in Pets)
+            {
+                Console.WriteLine(pet.Name);
+            }
+        }
+
         public Human(string name)
         {
             Name = name;

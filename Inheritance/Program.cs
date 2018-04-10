@@ -62,8 +62,16 @@ namespace Inheritance
                     person = new Human(HumanName);
                     Console.WriteLine(person.ToString());
                     created = true;
+
+                    bool isRunning = true;
+                    while (isRunning)
+                    {
+                        Adoption.ManageAdoption(person);
+                    }
                 }
             }
+
+
             Console.ReadLine();
         }
     }
