@@ -23,7 +23,7 @@ namespace Inheritance
         {
             //return ($"{greeting} I am a {this.GetType().ToString().Replace(this.GetType().Namespace, "").Substring(1)}");
             //return (this.GetType().Name);
-            return $"{greeting} I am a {this.GetType().Name} And I was born on {Birthday} I {(IsAsleep ? "am asleep" : "am not asleep")}";
+            return $"{greeting} I am a {this.GetType().Name}, named {Name} And I was born on {Birthday}. I {(IsAsleep ? "am asleep" : "am not asleep")}";
         }
 
 

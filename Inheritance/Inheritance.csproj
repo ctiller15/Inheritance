@@ -47,9 +47,11 @@
     <Compile Include="Bicycle.cs" />
     <Compile Include="Bike.cs" />
     <Compile Include="Car.cs" />
+    <Compile Include="Creation.cs" />
     <Compile Include="Human.cs" />
     <Compile Include="InorganicBeing.cs" />
     <Compile Include="ManualVehicle.cs" />
+    <Compile Include="Motorcycle.cs" />
     <Compile Include="OrganicBeing.cs" />
     <Compile Include="Panda.cs" />
     <Compile Include="Pets.cs" />
